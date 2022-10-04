@@ -1,0 +1,8 @@
+{
+    "results": [
+        {"title":"Cliente1", "url":"#", "text":"Lorem ipsum dolor sit amet, consectetur ..."},
+        {"title":"Cliente2", "url":"#", "text":"Ut enim ad minim veniam, quis nostrud ..."},
+        {"title":"Cliente3", "url":"#", "text":"Duis aute irure dolor in reprehenderit ..."},
+        {"title":"Cliente4", "url":"#", "text":"Excepteur sint occaecat cupidatat non ..."}
+    ]
+}

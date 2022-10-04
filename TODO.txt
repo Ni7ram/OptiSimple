@@ -1,0 +1,106 @@
+************************************************************************************
+				TODO LIST
+************************************************************************************
+
+Prioridad 0:
+
+- Imprimir [ ]
+- Si editas el cliente/cancelas orden/volves del perfil , vuelve a la lista de clientes, pero podes llegar por el search o por una orden [ ]
+- Hacer que desde el controller q no es pages (My_controller __construct()?), guarde
+la nota del home [ ]
+- El like actualmente trae clientes de otras opticas (!) [ ]
+- boton como pro pero de "por que optisimple"?, que carga con los users de prueba (si flag en base de datos, muestra). Cuando un cliente paga, le cambias el flag. [ ]
+- Ordenes del ultimo mes [ ]
+
+Deseables:
+
+- Autocomplete search [ ]
+
+Hechos:
+
+- Eliminado botones de Editar datos, ver cliente e historial, ahora esta todo junto [X]
+- Nueva view de lista de clientes, mas responsive y grande [x]
+- Hacer que elperfil se vea clickeando el row de la table en la lista, no con un boton [x]
+- Arreglar incosistencia de imagenes en el tutorial d historial [x]
+- Hacer una view new-perfil o algo asi, que cargue la vista tal cual del client view, pero en una grid partida en 2, hacia la izquierda. del otro lado, una vista new-historial o algo asi, con lo mismo pero a la derecha con el historial. luego un nuevo route direccion a un metodo del controller q compagina todo. ademas, un boton de editar recarga lo mismo pero reemplaza new-perfil por new-edit-perfil, y parece mas app [x]
+- [ENTER] crea la orden ahora (lo que le traia problemas a nestor) [x]
+- Box de sugerencias (Falta el backend) [x]
+- Nueva interfaz [x]
+- Api [x]
+- Backup [x]
+- Boton de nuevo usuario/backup en home [x]
+- Text area de notas personales [x]
+- Que el backup admita ñ, tildes, etc. UTF-8 probablemente [x]
+- Numero de orden en la esquina superior derecha, separado del "Nueva orden" [x]
+- Campo de celular para los clientes [x]
+- Boton de volver en crear orden [x]
+- Tooltip en editar para nombre, apellido, dni [x]
+- Tipo bi/multi no obligatorio (por defecto es monofocal) [x]
+- El saldo puede ser negativo en la db si la seña es mayor al total (no parece tener sentido contable, pero evita perdida de informacion en caso de equivocarse) [x]
+- Borrar el saldo si borras la seña [x]
+- JavaScript para calcular el saldo, seña, etc. [x]
+- Backup con iconito y otros iconitos [x]
+- Boton de eliminar orden [x]
+- Boton mas 3D para apretar de eliminar [x]
+- Animacion para las secciones (muuy parecido a lo que queria (Y)(Y)(Y)) [x]
+- Eliminar fadeIn para editar usuario y borrar orden/usuario (luce mas app que con el fade) [x]
+- Corregidos errores de maquetado [x]
+- Errores en formulario arriba todos juntos? [x]
+- El controller deberia invertir las fechas, no las vistas (tildo porque suena a buena idea pero no esta hecho, no es lo mejor por un tema de performance (recorre 2 veces las ordenes; para mostrarlas, y apenas las levantas cuando les invertis el formato. es contraintuitivo pero lo mejor es que este en la vista, es el equivalente a ordenarlo cuando pasas por 1era vez por el dato)) [x]
+- Cuando ves una orden, que cuando pases el mouse por anotaciones muestre con un tooltip todo el texto (lo mismo para Otros-Tratamientos) [x]
+- En ver orden, copiar la estructura de laboratorio para mostrar/esconder cosas, y nada tiene q tener placeholder [x]
+- En editar cliente, bloquear edicion de dni si ya existe [x]
+- Esta andando casi todo bien en ver orden, pero no checkea bien los radio buttons [x]
+- Boton para borrar ordenes (soporte en el backend) [x]
+- Mensaje de orden borrada [x]
+- Poner2:42 7/5/2016 checkboxes a Mineral, Poli etc (y el soporte en el backend) [x]
+- Sacar panel de total (y el soporte en la db) [x]
+- Mensaje de login pifiado [x]
+- Editar cliente desde el perfil [x]
+- Mensajes de Total, Saldo y Seña en Ver orden vieja [x]
+- Boton de ingresar en el login a la derecha [x]
+- Implementar laboratorios y tarjetas [x]
+- Fecha del dia por default en recibido [x]
+- Soporte para +- en las graduaciones [x]
+- Fechas por orden cronologico [x]
+- DNI opcional [x]
+- Invertir formato de las fechas [x]
+- Datepicker en español [x]
+- Ordenar clientes por orden alfabetico [x]
+- Volver a poner boton de buscar [x]
+- Modificar DNI en editar datos [x]
+- Redirigir al home si se entra manualmente a "crear" (evita error de php) [x]
+- N° de orden arriba (mas compacta la orden) [x]
+- Checkbox y radio buttons mas grandes [x]
+
+
+************************************************************************************
+				Bug List
+************************************************************************************
+
+- N° de orden corrida en pantalla mas chica, mal maquetado [x]
+- Numeros de orden no son float, y poner el + - (consultar con Nestor si es lo mismo) [x]
+- Repopulate radio buttons [x]
+- Si pones datos en bi/multi pero no señalas la casila, no dice nada (y se pone bi) [ ]
+
+
+************************************************************************************
+        			Preguntas para Néstor
+************************************************************************************
+
+- ¿Hace falta el - + para la graduacion, o se entiende igual? - sí
+- La fecha de recibido es siempre la fecha del dia? - no
+- El saldo es lo que le queda al chabon? - sí
+- Lista de laboratorios? - no
+- Hace falta un checkbox de orga/poli/etc para cada ojo? - no
+
+
+----------
+
+3:35 problema de vol con el lead, probablemente 2 automat d volumen superpuestas
+
+corte de 6:24, mas agudos a la reverb del lead, luego mas volumen (mucho mas) hasta 7:40, y desde 8:08 tmb
+
+kick de subida mal d nuevo (poner otro bazzism solo para esa parte)
+
+9:25, q el banjo se derrita al 4to tiempo
